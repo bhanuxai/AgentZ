@@ -1,0 +1,2216 @@
+{
+  "youtube": {
+    "name": "Youtube",
+    "url": "https://www.youtube.com",
+    "aliases": [
+      "youtube",
+      "youtube.com",
+      "www.youtube.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 360,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T15:12:46.799415+00:00"
+  },
+  "u tube": {
+    "name": "U Tube",
+    "url": "https://www.youtube.com",
+    "aliases": [
+      "u tube",
+      "u tube.com",
+      "www.u tube.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "you tube": {
+    "name": "You Tube",
+    "url": "https://www.youtube.com",
+    "aliases": [
+      "you tube",
+      "you tube.com",
+      "www.you tube.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "yt": {
+    "name": "YT",
+    "url": "https://www.youtube.com",
+    "aliases": [
+      "yt",
+      "yt.com",
+      "www.yt.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "netflix": {
+    "name": "Netflix",
+    "url": "https://www.netflix.com",
+    "aliases": [
+      "netflix",
+      "netflix.com",
+      "www.netflix.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "prime video": {
+    "name": "Prime Video",
+    "url": "https://www.primevideo.com",
+    "aliases": [
+      "prime video",
+      "prime video.com",
+      "www.prime video.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "primevideo": {
+    "name": "Primevideo",
+    "url": "https://www.primevideo.com",
+    "aliases": [
+      "primevideo",
+      "primevideo.com",
+      "www.primevideo.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "amazon prime": {
+    "name": "Amazon Prime",
+    "url": "https://www.primevideo.com",
+    "aliases": [
+      "amazon prime",
+      "amazon prime.com",
+      "www.amazon prime.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "hotstar": {
+    "name": "Hotstar",
+    "url": "https://www.hotstar.com",
+    "aliases": [
+      "hotstar",
+      "hotstar.com",
+      "www.hotstar.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "disney hotstar": {
+    "name": "Disney Hotstar",
+    "url": "https://www.hotstar.com",
+    "aliases": [
+      "disney hotstar",
+      "disney hotstar.com",
+      "www.disney hotstar.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "disney+": {
+    "name": "Disney+",
+    "url": "https://www.disneyplus.com",
+    "aliases": [
+      "disney+",
+      "disney+.com",
+      "www.disney+.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "disney": {
+    "name": "Disney",
+    "url": "https://www.disneyplus.com",
+    "aliases": [
+      "disney",
+      "disney.com",
+      "www.disney.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "hulu": {
+    "name": "Hulu",
+    "url": "https://www.hulu.com",
+    "aliases": [
+      "hulu",
+      "hulu.com",
+      "www.hulu.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "twitch": {
+    "name": "Twitch",
+    "url": "https://www.twitch.tv",
+    "aliases": [
+      "twitch",
+      "twitch.com",
+      "www.twitch.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "crunchyroll": {
+    "name": "Crunchyroll",
+    "url": "https://www.crunchyroll.com",
+    "aliases": [
+      "crunchyroll",
+      "crunchyroll.com",
+      "www.crunchyroll.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "google": {
+    "name": "Google",
+    "url": "https://www.google.com",
+    "aliases": [
+      "google",
+      "google.com",
+      "www.google.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "bing": {
+    "name": "Bing",
+    "url": "https://www.bing.com",
+    "aliases": [
+      "bing",
+      "bing.com",
+      "www.bing.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "duckduckgo": {
+    "name": "Duckduckgo",
+    "url": "https://duckduckgo.com",
+    "aliases": [
+      "duckduckgo",
+      "duckduckgo.com",
+      "www.duckduckgo.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "yahoo": {
+    "name": "Yahoo",
+    "url": "https://www.yahoo.com",
+    "aliases": [
+      "yahoo",
+      "yahoo.com",
+      "www.yahoo.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "wikipedia": {
+    "name": "Wikipedia",
+    "url": "https://www.wikipedia.org",
+    "aliases": [
+      "wikipedia",
+      "wikipedia.com",
+      "www.wikipedia.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.621107+00:00"
+  },
+  "wiki": {
+    "name": "Wiki",
+    "url": "https://www.wikipedia.org",
+    "aliases": [
+      "wiki",
+      "wiki.com",
+      "www.wiki.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "wolfram": {
+    "name": "Wolfram",
+    "url": "https://www.wolframalpha.com",
+    "aliases": [
+      "wolfram",
+      "wolfram.com",
+      "www.wolfram.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "wolframalpha": {
+    "name": "Wolframalpha",
+    "url": "https://www.wolframalpha.com",
+    "aliases": [
+      "wolframalpha",
+      "wolframalpha.com",
+      "www.wolframalpha.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "quora": {
+    "name": "Quora",
+    "url": "https://www.quora.com",
+    "aliases": [
+      "quora",
+      "quora.com",
+      "www.quora.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "chatgpt": {
+    "name": "Chatgpt",
+    "url": "https://chatgpt.com",
+    "aliases": [
+      "chatgpt",
+      "chatgpt.com",
+      "www.chatgpt.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "openai": {
+    "name": "Openai",
+    "url": "https://chatgpt.com",
+    "aliases": [
+      "openai",
+      "openai.com",
+      "www.openai.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "claude": {
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "aliases": [
+      "claude",
+      "claude.com",
+      "www.claude.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "gemini": {
+    "name": "Gemini",
+    "url": "https://gemini.google.com",
+    "aliases": [
+      "gemini",
+      "gemini.com",
+      "www.gemini.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "copilot": {
+    "name": "Copilot",
+    "url": "https://copilot.microsoft.com",
+    "aliases": [
+      "copilot",
+      "copilot.com",
+      "www.copilot.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "aliases": [
+      "perplexity",
+      "perplexity.com",
+      "www.perplexity.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "deepseek": {
+    "name": "Deepseek",
+    "url": "https://chat.deepseek.com",
+    "aliases": [
+      "deepseek",
+      "deepseek.com",
+      "www.deepseek.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "whatsapp": {
+    "name": "Whatsapp",
+    "url": "https://web.whatsapp.com",
+    "aliases": [
+      "whatsapp",
+      "whatsapp.com",
+      "www.whatsapp.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 35,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.713614+00:00"
+  },
+  "whatsapp web": {
+    "name": "Whatsapp Web",
+    "url": "https://web.whatsapp.com",
+    "aliases": [
+      "whatsapp web",
+      "whatsapp web.com",
+      "www.whatsapp web.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "telegram": {
+    "name": "Telegram",
+    "url": "https://web.telegram.org",
+    "aliases": [
+      "telegram",
+      "telegram.com",
+      "www.telegram.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "instagram": {
+    "name": "Instagram",
+    "url": "https://www.instagram.com",
+    "aliases": [
+      "instagram",
+      "instagram.com",
+      "www.instagram.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "facebook": {
+    "name": "Facebook",
+    "url": "https://www.facebook.com",
+    "aliases": [
+      "facebook",
+      "facebook.com",
+      "www.facebook.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "fb": {
+    "name": "FB",
+    "url": "https://www.facebook.com",
+    "aliases": [
+      "fb",
+      "fb.com",
+      "www.fb.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "twitter": {
+    "name": "Twitter",
+    "url": "https://x.com",
+    "aliases": [
+      "twitter",
+      "twitter.com",
+      "www.twitter.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "x": {
+    "name": "X",
+    "url": "https://x.com",
+    "aliases": [
+      "x",
+      "x.com",
+      "www.x.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "reddit": {
+    "name": "Reddit",
+    "url": "https://www.reddit.com",
+    "aliases": [
+      "reddit",
+      "reddit.com",
+      "www.reddit.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "linkedin": {
+    "name": "Linkedin",
+    "url": "https://www.linkedin.com",
+    "aliases": [
+      "linkedin",
+      "linkedin.com",
+      "www.linkedin.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "pinterest": {
+    "name": "Pinterest",
+    "url": "https://www.pinterest.com",
+    "aliases": [
+      "pinterest",
+      "pinterest.com",
+      "www.pinterest.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "snapchat": {
+    "name": "Snapchat",
+    "url": "https://web.snapchat.com",
+    "aliases": [
+      "snapchat",
+      "snapchat.com",
+      "www.snapchat.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "threads": {
+    "name": "Threads",
+    "url": "https://www.threads.net",
+    "aliases": [
+      "threads",
+      "threads.com",
+      "www.threads.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "discord": {
+    "name": "Discord",
+    "url": "https://discord.com/app",
+    "aliases": [
+      "discord",
+      "discord.com",
+      "www.discord.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "github": {
+    "name": "Github",
+    "url": "https://github.com",
+    "aliases": [
+      "github",
+      "github.com",
+      "www.github.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "gitlab": {
+    "name": "Gitlab",
+    "url": "https://gitlab.com",
+    "aliases": [
+      "gitlab",
+      "gitlab.com",
+      "www.gitlab.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "bitbucket": {
+    "name": "Bitbucket",
+    "url": "https://bitbucket.org",
+    "aliases": [
+      "bitbucket",
+      "bitbucket.com",
+      "www.bitbucket.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "stackoverflow": {
+    "name": "Stackoverflow",
+    "url": "https://stackoverflow.com",
+    "aliases": [
+      "stackoverflow",
+      "stackoverflow.com",
+      "www.stackoverflow.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "stack overflow": {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "aliases": [
+      "stack overflow",
+      "stack overflow.com",
+      "www.stack overflow.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "leetcode": {
+    "name": "Leetcode",
+    "url": "https://leetcode.com",
+    "aliases": [
+      "leetcode",
+      "leetcode.com",
+      "www.leetcode.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.626893+00:00"
+  },
+  "geeksforgeeks": {
+    "name": "Geeksforgeeks",
+    "url": "https://www.geeksforgeeks.org",
+    "aliases": [
+      "geeksforgeeks",
+      "geeksforgeeks.com",
+      "www.geeksforgeeks.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "gfg": {
+    "name": "GFG",
+    "url": "https://www.geeksforgeeks.org",
+    "aliases": [
+      "gfg",
+      "gfg.com",
+      "www.gfg.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "hackerrank": {
+    "name": "Hackerrank",
+    "url": "https://www.hackerrank.com",
+    "aliases": [
+      "hackerrank",
+      "hackerrank.com",
+      "www.hackerrank.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "codechef": {
+    "name": "Codechef",
+    "url": "https://www.codechef.com",
+    "aliases": [
+      "codechef",
+      "codechef.com",
+      "www.codechef.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "codeforces": {
+    "name": "Codeforces",
+    "url": "https://codeforces.com",
+    "aliases": [
+      "codeforces",
+      "codeforces.com",
+      "www.codeforces.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "kaggle": {
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com",
+    "aliases": [
+      "kaggle",
+      "kaggle.com",
+      "www.kaggle.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "w3schools": {
+    "name": "W3Schools",
+    "url": "https://www.w3schools.com",
+    "aliases": [
+      "w3schools",
+      "w3schools.com",
+      "www.w3schools.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "mdn": {
+    "name": "MDN",
+    "url": "https://developer.mozilla.org",
+    "aliases": [
+      "mdn",
+      "mdn.com",
+      "www.mdn.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "npm": {
+    "name": "NPM",
+    "url": "https://www.npmjs.com",
+    "aliases": [
+      "npm",
+      "npm.com",
+      "www.npm.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "pypi": {
+    "name": "Pypi",
+    "url": "https://pypi.org",
+    "aliases": [
+      "pypi",
+      "pypi.com",
+      "www.pypi.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "huggingface": {
+    "name": "Huggingface",
+    "url": "https://huggingface.co",
+    "aliases": [
+      "huggingface",
+      "huggingface.com",
+      "www.huggingface.com"
+    ],
+    "source": "preset",
+    "category": "Developer & Coding",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "flipkart": {
+    "name": "Flipkart",
+    "url": "https://www.flipkart.com",
+    "aliases": [
+      "flipkart",
+      "flipkart.com",
+      "www.flipkart.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 75,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:45.239155+00:00"
+  },
+  "amazon": {
+    "name": "Amazon",
+    "url": "https://www.amazon.com",
+    "aliases": [
+      "amazon",
+      "amazon.com",
+      "www.amazon.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 1,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T11:48:05.085563+00:00"
+  },
+  "amazon in": {
+    "name": "Amazon In",
+    "url": "https://www.amazon.in",
+    "aliases": [
+      "amazon in",
+      "amazon in.com",
+      "www.amazon in.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "amazon india": {
+    "name": "Amazon India",
+    "url": "https://www.amazon.in",
+    "aliases": [
+      "amazon india",
+      "amazon india.com",
+      "www.amazon india.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "myntra": {
+    "name": "Myntra",
+    "url": "https://www.myntra.com",
+    "aliases": [
+      "myntra",
+      "myntra.com",
+      "www.myntra.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "meesho": {
+    "name": "Meesho",
+    "url": "https://www.meesho.com",
+    "aliases": [
+      "meesho",
+      "meesho.com",
+      "www.meesho.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "ajio": {
+    "name": "Ajio",
+    "url": "https://www.ajio.com",
+    "aliases": [
+      "ajio",
+      "ajio.com",
+      "www.ajio.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "nykaa": {
+    "name": "Nykaa",
+    "url": "https://www.nykaa.com",
+    "aliases": [
+      "nykaa",
+      "nykaa.com",
+      "www.nykaa.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "ebay": {
+    "name": "Ebay",
+    "url": "https://www.ebay.com",
+    "aliases": [
+      "ebay",
+      "ebay.com",
+      "www.ebay.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "alibaba": {
+    "name": "Alibaba",
+    "url": "https://www.alibaba.com",
+    "aliases": [
+      "alibaba",
+      "alibaba.com",
+      "www.alibaba.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "aliexpress": {
+    "name": "Aliexpress",
+    "url": "https://www.aliexpress.com",
+    "aliases": [
+      "aliexpress",
+      "aliexpress.com",
+      "www.aliexpress.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "walmart": {
+    "name": "Walmart",
+    "url": "https://www.walmart.com",
+    "aliases": [
+      "walmart",
+      "walmart.com",
+      "www.walmart.com"
+    ],
+    "source": "preset",
+    "category": "E-Commerce",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "target": {
+    "name": "Target",
+    "url": "https://www.target.com",
+    "aliases": [
+      "target",
+      "target.com",
+      "www.target.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "etsy": {
+    "name": "Etsy",
+    "url": "https://www.etsy.com",
+    "aliases": [
+      "etsy",
+      "etsy.com",
+      "www.etsy.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "zomato": {
+    "name": "Zomato",
+    "url": "https://www.zomato.com",
+    "aliases": [
+      "zomato",
+      "zomato.com",
+      "www.zomato.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "swiggy": {
+    "name": "Swiggy",
+    "url": "https://www.swiggy.com",
+    "aliases": [
+      "swiggy",
+      "swiggy.com",
+      "www.swiggy.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "blinkit": {
+    "name": "Blinkit",
+    "url": "https://www.blinkit.com",
+    "aliases": [
+      "blinkit",
+      "blinkit.com",
+      "www.blinkit.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "zepto": {
+    "name": "Zepto",
+    "url": "https://www.zepto.com",
+    "aliases": [
+      "zepto",
+      "zepto.com",
+      "www.zepto.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "instamart": {
+    "name": "Instamart",
+    "url": "https://www.swiggy.com/instamart",
+    "aliases": [
+      "instamart",
+      "instamart.com",
+      "www.instamart.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "maps": {
+    "name": "Maps",
+    "url": "https://maps.google.com",
+    "aliases": [
+      "maps",
+      "maps.com",
+      "www.maps.com"
+    ],
+    "source": "preset",
+    "category": "Travel & Transport",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "google maps": {
+    "name": "Google Maps",
+    "url": "https://maps.google.com",
+    "aliases": [
+      "google maps",
+      "google maps.com",
+      "www.google maps.com"
+    ],
+    "source": "preset",
+    "category": "Travel & Transport",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "makemytrip": {
+    "name": "Makemytrip",
+    "url": "https://www.makemytrip.com",
+    "aliases": [
+      "makemytrip",
+      "makemytrip.com",
+      "www.makemytrip.com"
+    ],
+    "source": "preset",
+    "category": "Travel & Transport",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "irctc": {
+    "name": "Irctc",
+    "url": "https://www.irctc.co.in",
+    "aliases": [
+      "irctc",
+      "irctc.com",
+      "www.irctc.com"
+    ],
+    "source": "preset",
+    "category": "Travel & Transport",
+    "visit_count": 1,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.727458+00:00"
+  },
+  "booking": {
+    "name": "Booking",
+    "url": "https://www.booking.com",
+    "aliases": [
+      "booking",
+      "booking.com",
+      "www.booking.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "airbnb": {
+    "name": "Airbnb",
+    "url": "https://www.airbnb.com",
+    "aliases": [
+      "airbnb",
+      "airbnb.com",
+      "www.airbnb.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "uber": {
+    "name": "Uber",
+    "url": "https://m.uber.com",
+    "aliases": [
+      "uber",
+      "uber.com",
+      "www.uber.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "rapido": {
+    "name": "Rapido",
+    "url": "https://www.rapido.bike",
+    "aliases": [
+      "rapido",
+      "rapido.com",
+      "www.rapido.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "gmail": {
+    "name": "Gmail",
+    "url": "https://mail.google.com",
+    "aliases": [
+      "gmail",
+      "gmail.com",
+      "www.gmail.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "mail": {
+    "name": "Mail",
+    "url": "https://mail.google.com",
+    "aliases": [
+      "mail",
+      "mail.com",
+      "www.mail.com"
+    ],
+    "source": "preset",
+    "category": "AI & Machine Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "outlook": {
+    "name": "Outlook",
+    "url": "https://outlook.live.com",
+    "aliases": [
+      "outlook",
+      "outlook.com",
+      "www.outlook.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "google drive": {
+    "name": "Google Drive",
+    "url": "https://drive.google.com",
+    "aliases": [
+      "google drive",
+      "google drive.com",
+      "www.google drive.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "drive": {
+    "name": "Drive",
+    "url": "https://drive.google.com",
+    "aliases": [
+      "drive",
+      "drive.com",
+      "www.drive.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "google docs": {
+    "name": "Google Docs",
+    "url": "https://docs.google.com",
+    "aliases": [
+      "google docs",
+      "google docs.com",
+      "www.google docs.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "docs": {
+    "name": "Docs",
+    "url": "https://docs.google.com",
+    "aliases": [
+      "docs",
+      "docs.com",
+      "www.docs.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "google sheets": {
+    "name": "Google Sheets",
+    "url": "https://sheets.google.com",
+    "aliases": [
+      "google sheets",
+      "google sheets.com",
+      "www.google sheets.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "sheets": {
+    "name": "Sheets",
+    "url": "https://sheets.google.com",
+    "aliases": [
+      "sheets",
+      "sheets.com",
+      "www.sheets.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "notion": {
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "aliases": [
+      "notion",
+      "notion.com",
+      "www.notion.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "trello": {
+    "name": "Trello",
+    "url": "https://trello.com",
+    "aliases": [
+      "trello",
+      "trello.com",
+      "www.trello.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "canva": {
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "aliases": [
+      "canva",
+      "canva.com",
+      "www.canva.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "figma": {
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "aliases": [
+      "figma",
+      "figma.com",
+      "www.figma.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "miro": {
+    "name": "Miro",
+    "url": "https://miro.com",
+    "aliases": [
+      "miro",
+      "miro.com",
+      "www.miro.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "slack": {
+    "name": "Slack",
+    "url": "https://app.slack.com",
+    "aliases": [
+      "slack",
+      "slack.com",
+      "www.slack.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "zoom": {
+    "name": "Zoom",
+    "url": "https://zoom.us",
+    "aliases": [
+      "zoom",
+      "zoom.com",
+      "www.zoom.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "teams": {
+    "name": "Teams",
+    "url": "https://teams.microsoft.com",
+    "aliases": [
+      "teams",
+      "teams.com",
+      "www.teams.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "spotify": {
+    "name": "Spotify",
+    "url": "https://open.spotify.com",
+    "aliases": [
+      "spotify",
+      "spotify.com",
+      "www.spotify.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "spotify web": {
+    "name": "Spotify Web",
+    "url": "https://open.spotify.com",
+    "aliases": [
+      "spotify web",
+      "spotify web.com",
+      "www.spotify web.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "soundcloud": {
+    "name": "Soundcloud",
+    "url": "https://soundcloud.com",
+    "aliases": [
+      "soundcloud",
+      "soundcloud.com",
+      "www.soundcloud.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "apple music": {
+    "name": "Apple Music",
+    "url": "https://music.apple.com",
+    "aliases": [
+      "apple music",
+      "apple music.com",
+      "www.apple music.com"
+    ],
+    "source": "preset",
+    "category": "Streaming & Entertainment",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "wynk": {
+    "name": "Wynk",
+    "url": "https://wynk.in",
+    "aliases": [
+      "wynk",
+      "wynk.com",
+      "www.wynk.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "jiosaavn": {
+    "name": "Jiosaavn",
+    "url": "https://www.jiosaavn.com",
+    "aliases": [
+      "jiosaavn",
+      "jiosaavn.com",
+      "www.jiosaavn.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "gaana": {
+    "name": "Gaana",
+    "url": "https://gaana.com",
+    "aliases": [
+      "gaana",
+      "gaana.com",
+      "www.gaana.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "cricbuzz": {
+    "name": "Cricbuzz",
+    "url": "https://www.cricbuzz.com",
+    "aliases": [
+      "cricbuzz",
+      "cricbuzz.com",
+      "www.cricbuzz.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.646866+00:00"
+  },
+  "espn": {
+    "name": "Espn",
+    "url": "https://www.espncricinfo.com",
+    "aliases": [
+      "espn",
+      "espn.com",
+      "www.espn.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "espncricinfo": {
+    "name": "Espncricinfo",
+    "url": "https://www.espncricinfo.com",
+    "aliases": [
+      "espncricinfo",
+      "espncricinfo.com",
+      "www.espncricinfo.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "bbc": {
+    "name": "BBC",
+    "url": "https://www.bbc.com",
+    "aliases": [
+      "bbc",
+      "bbc.com",
+      "www.bbc.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "cnn": {
+    "name": "CNN",
+    "url": "https://www.cnn.com",
+    "aliases": [
+      "cnn",
+      "cnn.com",
+      "www.cnn.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "the verge": {
+    "name": "The Verge",
+    "url": "https://www.theverge.com",
+    "aliases": [
+      "the verge",
+      "the verge.com",
+      "www.the verge.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "theverge": {
+    "name": "Theverge",
+    "url": "https://www.theverge.com",
+    "aliases": [
+      "theverge",
+      "theverge.com",
+      "www.theverge.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "techcrunch": {
+    "name": "Techcrunch",
+    "url": "https://techcrunch.com",
+    "aliases": [
+      "techcrunch",
+      "techcrunch.com",
+      "www.techcrunch.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "hacker news": {
+    "name": "Hacker News",
+    "url": "https://news.ycombinator.com",
+    "aliases": [
+      "hacker news",
+      "hacker news.com",
+      "www.hacker news.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "hackernews": {
+    "name": "Hackernews",
+    "url": "https://news.ycombinator.com",
+    "aliases": [
+      "hackernews",
+      "hackernews.com",
+      "www.hackernews.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "ycombinator": {
+    "name": "Ycombinator",
+    "url": "https://news.ycombinator.com",
+    "aliases": [
+      "ycombinator",
+      "ycombinator.com",
+      "www.ycombinator.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "ndtv": {
+    "name": "Ndtv",
+    "url": "https://www.ndtv.com",
+    "aliases": [
+      "ndtv",
+      "ndtv.com",
+      "www.ndtv.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "times of india": {
+    "name": "Times Of India",
+    "url": "https://timesofindia.indiatimes.com",
+    "aliases": [
+      "times of india",
+      "times of india.com",
+      "www.times of india.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "the hindu": {
+    "name": "The Hindu",
+    "url": "https://www.thehindu.com",
+    "aliases": [
+      "the hindu",
+      "the hindu.com",
+      "www.the hindu.com"
+    ],
+    "source": "preset",
+    "category": "News & Sports",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "coursera": {
+    "name": "Coursera",
+    "url": "https://www.coursera.org",
+    "aliases": [
+      "coursera",
+      "coursera.com",
+      "www.coursera.com"
+    ],
+    "source": "preset",
+    "category": "Education & Learning",
+    "visit_count": 36,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.742606+00:00"
+  },
+  "udemy": {
+    "name": "Udemy",
+    "url": "https://www.udemy.com",
+    "aliases": [
+      "udemy",
+      "udemy.com",
+      "www.udemy.com"
+    ],
+    "source": "preset",
+    "category": "Education & Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "edx": {
+    "name": "EDX",
+    "url": "https://www.edx.org",
+    "aliases": [
+      "edx",
+      "edx.com",
+      "www.edx.com"
+    ],
+    "source": "preset",
+    "category": "Education & Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "khan academy": {
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org",
+    "aliases": [
+      "khan academy",
+      "khan academy.com",
+      "www.khan academy.com"
+    ],
+    "source": "preset",
+    "category": "Education & Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "unacademy": {
+    "name": "Unacademy",
+    "url": "https://unacademy.com",
+    "aliases": [
+      "unacademy",
+      "unacademy.com",
+      "www.unacademy.com"
+    ],
+    "source": "preset",
+    "category": "Education & Learning",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "byjus": {
+    "name": "Byjus",
+    "url": "https://byjus.com",
+    "aliases": [
+      "byjus",
+      "byjus.com",
+      "www.byjus.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "physics wallah": {
+    "name": "Physics Wallah",
+    "url": "https://www.pw.live",
+    "aliases": [
+      "physics wallah",
+      "physics wallah.com",
+      "www.physics wallah.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "lpu": {
+    "name": "LPU",
+    "url": "https://lpu.in",
+    "aliases": [
+      "www.lpu.com",
+      "www.lpu.in",
+      "lpu",
+      "lpu.com",
+      "lpu.in"
+    ],
+    "source": "direct_domain",
+    "category": "Education & Learning",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.651327+00:00"
+  },
+  "zerodha": {
+    "name": "Zerodha",
+    "url": "https://kite.zerodha.com",
+    "aliases": [
+      "zerodha",
+      "zerodha.com",
+      "www.zerodha.com"
+    ],
+    "source": "preset",
+    "category": "Finance & Banking",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "kite": {
+    "name": "Kite",
+    "url": "https://kite.zerodha.com",
+    "aliases": [
+      "kite",
+      "kite.com",
+      "www.kite.com"
+    ],
+    "source": "preset",
+    "category": "Finance & Banking",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "groww": {
+    "name": "Groww",
+    "url": "https://groww.in",
+    "aliases": [
+      "groww",
+      "groww.com",
+      "www.groww.com"
+    ],
+    "source": "preset",
+    "category": "Finance & Banking",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "upstox": {
+    "name": "Upstox",
+    "url": "https://upstox.com",
+    "aliases": [
+      "upstox",
+      "upstox.com",
+      "www.upstox.com"
+    ],
+    "source": "preset",
+    "category": "Social & Communication",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "tradingview": {
+    "name": "Tradingview",
+    "url": "https://www.tradingview.com",
+    "aliases": [
+      "tradingview",
+      "tradingview.com",
+      "www.tradingview.com"
+    ],
+    "source": "preset",
+    "category": "Finance & Banking",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "binance": {
+    "name": "Binance",
+    "url": "https://www.binance.com",
+    "aliases": [
+      "binance",
+      "binance.com",
+      "www.binance.com"
+    ],
+    "source": "preset",
+    "category": "Finance & Banking",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "coinmarketcap": {
+    "name": "Coinmarketcap",
+    "url": "https://coinmarketcap.com",
+    "aliases": [
+      "coinmarketcap",
+      "coinmarketcap.com",
+      "www.coinmarketcap.com"
+    ],
+    "source": "preset",
+    "category": "Finance & Banking",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "moneycontrol": {
+    "name": "Moneycontrol",
+    "url": "https://www.moneycontrol.com",
+    "aliases": [
+      "moneycontrol",
+      "moneycontrol.com",
+      "www.moneycontrol.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "speedtest": {
+    "name": "Speedtest",
+    "url": "https://www.speedtest.net",
+    "aliases": [
+      "speedtest",
+      "speedtest.com",
+      "www.speedtest.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "fast": {
+    "name": "Fast",
+    "url": "https://fast.com",
+    "aliases": [
+      "fast",
+      "fast.com",
+      "www.fast.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "fast.com": {
+    "name": "Fast.Com",
+    "url": "https://fast.com",
+    "aliases": [
+      "fast.com",
+      "fast.com.com",
+      "www.fast.com.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.636513+00:00"
+  },
+  "translate": {
+    "name": "Translate",
+    "url": "https://translate.google.com",
+    "aliases": [
+      "translate",
+      "translate.com",
+      "www.translate.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "google translate": {
+    "name": "Google Translate",
+    "url": "https://translate.google.com",
+    "aliases": [
+      "google translate",
+      "google translate.com",
+      "www.google translate.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "behance": {
+    "name": "Behance",
+    "url": "https://www.behance.net",
+    "aliases": [
+      "behance",
+      "behance.com",
+      "www.behance.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T14:37:44.656407+00:00"
+  },
+  "dribbble": {
+    "name": "Dribbble",
+    "url": "https://dribbble.com",
+    "aliases": [
+      "dribbble",
+      "dribbble.com",
+      "www.dribbble.com"
+    ],
+    "source": "preset",
+    "category": "Utilities & Web",
+    "visit_count": 0,
+    "first_learned": "2026-10-02T10:51:51.710176+00:00",
+    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+  },
+  "mit opencourseware": {
+    "name": "Mit Opencourseware",
+    "url": "https://ocw.mit.edu/",
+    "aliases": [
+      "mit opencourseware",
+      "ocw.mit.edu",
+      "www.ocw.mit.edu"
+    ],
+    "source": "autonomous_discovery",
+    "category": "Education & Learning",
+    "visit_count": 3,
+    "first_learned": "2026-10-02T10:52:04.454386+00:00",
+    "last_accessed": "2026-10-02T11:02:34.754219+00:00"
+  },
+  "apple": {
+    "name": "Apple",
+    "url": "https://www.apple.com",
+    "aliases": [
+      "www.apple.com",
+      "apple",
+      "apple.com"
+    ],
+    "source": "heuristic_slug",
+    "category": "Utilities & Web",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:54:35.070718+00:00",
+    "last_accessed": "2026-10-02T14:37:44.630748+00:00"
+  },
+  "news": {
+    "name": "News",
+    "url": "https://news.ycombinator.com",
+    "aliases": [
+      "news.ycombinator.com",
+      "news",
+      "www.news.ycombinator.com"
+    ],
+    "source": "direct_domain",
+    "category": "News & Sports",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:54:35.085348+00:00",
+    "last_accessed": "2026-10-02T14:37:44.641866+00:00"
+  },
+  "unlistedbrand": {
+    "name": "Unlistedbrand",
+    "url": "https://www.unlistedbrand.com",
+    "aliases": [
+      "unlistedbrand",
+      "unlistedbrand.com",
+      "www.unlistedbrand.com"
+    ],
+    "source": "heuristic_slug",
+    "category": "Utilities & Web",
+    "visit_count": 38,
+    "first_learned": "2026-10-02T10:54:35.662590+00:00",
+    "last_accessed": "2026-10-02T14:37:44.661519+00:00"
+  },
+  "my college portal": {
+    "name": "My College Portal",
+    "url": "https://portal.mycollege.edu",
+    "aliases": [
+      "www.portal.mycollege.edu",
+      "portal.mycollege.edu",
+      "my college portal"
+    ],
+    "source": "user_taught",
+    "category": "Education & Learning",
+    "visit_count": 45,
+    "first_learned": "2026-10-02T10:56:27.714367+00:00",
+    "last_accessed": "2026-10-02T14:37:45.225730+00:00"
+  },
+  "exam portal": {
+    "name": "Exam Portal",
+    "url": "https://exams.university.edu",
+    "aliases": [
+      "www.exams.university.edu",
+      "exams.university.edu",
+      "exam portal"
+    ],
+    "source": "user_taught",
+    "category": "Education & Learning",
+    "visit_count": 4,
+    "first_learned": "2026-10-02T11:00:58.800443+00:00",
+    "last_accessed": "2026-10-02T11:02:32.682511+00:00"
+  },
+  "armory crate": {
+    "name": "Armory Crate",
+    "url": "https://www.armorycrate.com",
+    "aliases": [
+      "armory crate",
+      "www.armorycrate.com",
+      "armorycrate.com"
+    ],
+    "source": "heuristic_slug",
+    "category": "Utilities & Web",
+    "visit_count": 2,
+    "first_learned": "2026-10-02T14:12:27.319644+00:00",
+    "last_accessed": "2026-10-02T14:12:48.260859+00:00"
+  },
+  "asus glidex and click communication": {
+    "name": "Asus Glidex And Click Communication",
+    "url": "https://www.asusglidexandclickcommunication.com",
+    "aliases": [
+      "www.asusglidexandclickcommunication.com",
+      "asus glidex and click communication",
+      "asusglidexandclickcommunication.com"
+    ],
+    "source": "heuristic_slug",
+    "category": "Utilities & Web",
+    "visit_count": 1,
+    "first_learned": "2026-10-02T14:34:30.282842+00:00",
+    "last_accessed": "2026-10-02T14:34:30.282842+00:00"
+  }
+}

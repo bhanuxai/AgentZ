@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AgentZ</string>
+    <string name="tagline">Tell me what you want. I’ll handle the steps.</string>
+    <string name="accessibility_service_description">AgentZ uses accessibility service to observe active application UI elements, read form fields, and assist in executing authorized automation actions such as ride booking upon explicit user confirmation.</string>
+</resources>

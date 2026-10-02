@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.obj
+*.o
+*.a
+*.lib
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+bin/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Windows Shortcuts / Temporary screen buffers
+*.lnk
+backend/screen_captured.png
+backend/screen_gdi.png
+backend/static/screenshots/*.png
+!backend/static/screenshots/.gitkeep
+
+# Android & Gradle
+.gradle/
+.kotlin/
+AgentZ/.gradle/
+AgentZ/.kotlin/
+AgentZ/local.properties
+local.properties
+*.iml
+.idea/
+AgentZ/.idea/
+AgentZ/build/
+AgentZ/app/build/intermediates/
+AgentZ/app/build/generated/
+AgentZ/app/build/tmp/
+AgentZ/app/build/reports/
+AgentZ/app/build/kotlin/
+AgentZ/app/build/*
+!AgentZ/app/build/outputs/
+AgentZ/app/build/outputs/*
+!AgentZ/app/build/outputs/apk/
+AgentZ/app/build/outputs/apk/*
+!AgentZ/app/build/outputs/apk/debug/
+AgentZ/app/build/outputs/apk/debug/*
+!AgentZ/app/build/outputs/apk/debug/app-debug.apk
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Secrets & Environment variables
+.env
+*.env
+*.key
+*.pem
