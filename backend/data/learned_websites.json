@@ -9,9 +9,9 @@
     ],
     "source": "preset",
     "category": "Streaming & Entertainment",
-    "visit_count": 360,
+    "visit_count": 401,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T15:12:46.799415+00:00"
+    "last_accessed": "2026-10-02T18:02:10.817318+00:00"
   },
   "u tube": {
     "name": "U Tube",
@@ -275,9 +275,9 @@
     ],
     "source": "preset",
     "category": "Utilities & Web",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.621107+00:00"
+    "last_accessed": "2026-10-02T18:02:10.153297+00:00"
   },
   "wiki": {
     "name": "Wiki",
@@ -443,9 +443,9 @@
     ],
     "source": "preset",
     "category": "Social & Communication",
-    "visit_count": 35,
+    "visit_count": 39,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.713614+00:00"
+    "last_accessed": "2026-10-02T18:02:10.239431+00:00"
   },
   "whatsapp web": {
     "name": "Whatsapp Web",
@@ -625,9 +625,9 @@
     ],
     "source": "preset",
     "category": "Utilities & Web",
-    "visit_count": 0,
+    "visit_count": 1,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T10:51:51.710176+00:00"
+    "last_accessed": "2026-10-02T16:47:45.612119+00:00"
   },
   "github": {
     "name": "Github",
@@ -709,9 +709,9 @@
     ],
     "source": "preset",
     "category": "Developer & Coding",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.626893+00:00"
+    "last_accessed": "2026-10-02T18:02:10.160720+00:00"
   },
   "geeksforgeeks": {
     "name": "Geeksforgeeks",
@@ -877,9 +877,9 @@
     ],
     "source": "preset",
     "category": "E-Commerce",
-    "visit_count": 75,
+    "visit_count": 83,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:45.239155+00:00"
+    "last_accessed": "2026-10-02T18:02:10.759047+00:00"
   },
   "amazon": {
     "name": "Amazon",
@@ -1591,9 +1591,9 @@
     ],
     "source": "preset",
     "category": "News & Sports",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.646866+00:00"
+    "last_accessed": "2026-10-02T18:02:10.185822+00:00"
   },
   "espn": {
     "name": "Espn",
@@ -1787,9 +1787,9 @@
     ],
     "source": "preset",
     "category": "Education & Learning",
-    "visit_count": 36,
+    "visit_count": 40,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.742606+00:00"
+    "last_accessed": "2026-10-02T18:02:10.257615+00:00"
   },
   "udemy": {
     "name": "Udemy",
@@ -1887,9 +1887,9 @@
     ],
     "source": "direct_domain",
     "category": "Education & Learning",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.651327+00:00"
+    "last_accessed": "2026-10-02T18:02:10.192003+00:00"
   },
   "zerodha": {
     "name": "Zerodha",
@@ -2041,9 +2041,9 @@
     ],
     "source": "preset",
     "category": "Utilities & Web",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.636513+00:00"
+    "last_accessed": "2026-10-02T18:02:10.173833+00:00"
   },
   "translate": {
     "name": "Translate",
@@ -2083,9 +2083,9 @@
     ],
     "source": "preset",
     "category": "Utilities & Web",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:51:51.710176+00:00",
-    "last_accessed": "2026-10-02T14:37:44.656407+00:00"
+    "last_accessed": "2026-10-02T18:02:10.196388+00:00"
   },
   "dribbble": {
     "name": "Dribbble",
@@ -2125,9 +2125,9 @@
     ],
     "source": "heuristic_slug",
     "category": "Utilities & Web",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:54:35.070718+00:00",
-    "last_accessed": "2026-10-02T14:37:44.630748+00:00"
+    "last_accessed": "2026-10-02T18:02:10.167603+00:00"
   },
   "news": {
     "name": "News",
@@ -2139,9 +2139,9 @@
     ],
     "source": "direct_domain",
     "category": "News & Sports",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:54:35.085348+00:00",
-    "last_accessed": "2026-10-02T14:37:44.641866+00:00"
+    "last_accessed": "2026-10-02T18:02:10.180205+00:00"
   },
   "unlistedbrand": {
     "name": "Unlistedbrand",
@@ -2153,23 +2153,23 @@
     ],
     "source": "heuristic_slug",
     "category": "Utilities & Web",
-    "visit_count": 38,
+    "visit_count": 42,
     "first_learned": "2026-10-02T10:54:35.662590+00:00",
-    "last_accessed": "2026-10-02T14:37:44.661519+00:00"
+    "last_accessed": "2026-10-02T18:02:10.201725+00:00"
   },
   "my college portal": {
     "name": "My College Portal",
     "url": "https://portal.mycollege.edu",
     "aliases": [
       "www.portal.mycollege.edu",
-      "portal.mycollege.edu",
-      "my college portal"
+      "my college portal",
+      "portal.mycollege.edu"
     ],
     "source": "user_taught",
     "category": "Education & Learning",
-    "visit_count": 45,
+    "visit_count": 49,
     "first_learned": "2026-10-02T10:56:27.714367+00:00",
-    "last_accessed": "2026-10-02T14:37:45.225730+00:00"
+    "last_accessed": "2026-10-02T18:02:10.743737+00:00"
   },
   "exam portal": {
     "name": "Exam Portal",
@@ -2212,5 +2212,19 @@
     "visit_count": 1,
     "first_learned": "2026-10-02T14:34:30.282842+00:00",
     "last_accessed": "2026-10-02T14:34:30.282842+00:00"
+  },
+  "xbox inmy pc": {
+    "name": "Xbox Inmy Pc",
+    "url": "https://www.xboxinmypc.com",
+    "aliases": [
+      "xbox inmy pc",
+      "xboxinmypc.com",
+      "www.xboxinmypc.com"
+    ],
+    "source": "heuristic_slug",
+    "category": "Utilities & Web",
+    "visit_count": 1,
+    "first_learned": "2026-10-02T16:33:52.635991+00:00",
+    "last_accessed": "2026-10-02T16:33:52.635991+00:00"
   }
 }

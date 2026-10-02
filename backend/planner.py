@@ -202,12 +202,106 @@ def parse_and_evaluate_math(text: str) -> Optional[Dict[str, Any]]:
     except Exception:
         return None
 
+def fetch_live_weather(query: str) -> Optional[Dict[str, Any]]:
+    """
+    Fetches real-time live meteorological telemetry (temperature, condition, humidity, wind, feels like)
+    for any city, town, or location worldwide using high-speed weather APIs.
+    """
+    clean = query.lower().strip()
+    location = ""
+
+    # 1. in/at/for/of <location>
+    m1 = re.search(r"\b(?:in|at|for|of)\s+([a-zA-Z\s]+?)(?:\s+(?:today|tomorrow|now|currently|tonight|this\s+week))?$", clean)
+    if m1:
+        loc = m1.group(1).strip()
+        loc = re.sub(r"\b(the|a|an)\b", "", loc).strip()
+        if loc and loc not in ["celcius", "celsius", "fahrenheit", "degrees", "degree"]:
+            location = loc
+
+    # 2. <location> (today|tomorrow)? weather/temperature
+    if not location:
+        m2 = re.search(r"^(?:what\s+is\s+|how\s+is\s+|tell\s+me\s+)?([a-zA-Z\s]+?)\s+(?:today\s+|tomorrow\s+)?(?:weather|temperature|temp|climate)", clean)
+        if m2:
+            loc = m2.group(1).strip()
+            loc = re.sub(r"\b(the|how|what|is|tell\s+me|show\s+me)\b", "", loc).strip()
+            if loc:
+                location = loc
+
+    # 3. Clean up noise words
+    if location:
+        location = re.sub(r"\b(today|tomorrow|now|currently|tonight|please|city|town|village)\b", "", location).strip()
+
+    # Query wttr.in JSON API
+    try:
+        loc_param = urllib.parse.quote(location) if location else ""
+        url = f"https://wttr.in/{loc_param}?format=j1"
+        req = urllib.request.Request(url, headers={"User-Agent": "curl/7.68.0", "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=3.5) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            current = data.get("current_condition", [{}])[0]
+            nearest = data.get("nearest_area", [{}])[0]
+            area_name = nearest.get("areaName", [{}])[0].get("value", location.title() if location else "Your Location")
+            region = nearest.get("region", [{}])[0].get("value", "")
+            country = nearest.get("country", [{}])[0].get("value", "")
+
+            loc_display = area_name
+            if region and region.lower() != area_name.lower():
+                loc_display += f", {region}"
+            if country:
+                loc_display += f", {country}"
+
+            temp_c = current.get("temp_C", "N/A")
+            temp_f = current.get("temp_F", "N/A")
+            feels_c = current.get("FeelsLikeC", temp_c)
+            desc = current.get("weatherDesc", [{}])[0].get("value", "Clear")
+            humidity = current.get("humidity", "N/A")
+            wind_kmph = current.get("windspeedKmph", "N/A")
+            precip_mm = current.get("precipMM", "0.0")
+
+            desc_low = desc.lower()
+            if "rain" in desc_low or "shower" in desc_low:
+                emoji = "🌧️"
+            elif "thunder" in desc_low or "storm" in desc_low:
+                emoji = "⛈️"
+            elif "snow" in desc_low or "ice" in desc_low:
+                emoji = "❄️"
+            elif "cloud" in desc_low or "overcast" in desc_low:
+                emoji = "☁️"
+            elif "fog" in desc_low or "mist" in desc_low or "haze" in desc_low:
+                emoji = "🌫️"
+            elif "sun" in desc_low or "clear" in desc_low:
+                emoji = "☀️"
+            else:
+                emoji = "🌤️"
+
+            answer = (
+                f"{emoji} **Live Weather for {loc_display}**\n\n"
+                f"• **Condition**: {desc}\n"
+                f"• **Temperature**: {temp_c}°C ({temp_f}°F) — *Feels like {feels_c}°C*\n"
+                f"• **Humidity**: {humidity}%\n"
+                f"• **Wind Speed**: {wind_kmph} km/h\n"
+                f"• **Precipitation**: {precip_mm} mm\n\n"
+                f"🌐 *Real-time meteorological telemetry updated just now.*"
+            )
+            spoken = f"The weather in {area_name} is currently {desc} with a temperature of {temp_c} degrees Celsius and humidity of {humidity} percent."
+            return {
+                "heading": f"Weather for {loc_display}",
+                "answer": answer,
+                "spoken": spoken,
+                "url": f"https://wttr.in/{urllib.parse.quote(location)}" if location else "https://wttr.in",
+                "source": "Global Meteorological Service (wttr.in)"
+            }
+    except Exception:
+        pass
+
+    return None
+
 def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
     """
     Autonomous Multi-Tier Real-Time Web Knowledge & Reasoning Engine:
-    - Tier 0: Direct curated knowledge for high-frequency factual inquiries
+    - Tier 0: Direct curated facts and live weather telemetry
     - Tier 1: DuckDuckGo Instant Answer API
-    - Tier 2: Wikipedia REST API & OpenSearch
+    - Tier 2: Wikipedia Search & REST Summary API
     - Tier 3: DuckDuckGo Real-Time Web Search Snippets
     """
     raw_query = query.strip()
@@ -215,15 +309,22 @@ def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
         return None
 
     norm = normalize_nlp_query(raw_query)
+
+    # Tier 0a: Weather Check
+    if any(w in norm for w in ["weather", "temperature", "forecast", "climate", "is it raining", "will it rain"]) and not any(w in norm for w in ["cpu", "gpu", "battery", "core", "hardware"]):
+        w_res = fetch_live_weather(raw_query)
+        if w_res:
+            return w_res
+
     clean_subj = re.sub(
-        r"^(?:can\s+i\s+know\s+|can\s+you\s+tell\s+me\s+|tell\s+me\s+|do\s+you\s+know\s+|what\s+is\s+|what\s+are\s+|who\s+is\s+|who\s+are\s+|how\s+many\s+|where\s+is\s+|which\s+is\s+|explain\s+|how\s+does\s+|how\s+do\s+)",
+        r"^(?:can\s+i\s+know\s+|can\s+you\s+tell\s+me\s+|tell\s+me\s+|do\s+you\s+know\s+|what\s+is\s+|what\s+was\s+|what\s+are\s+|who\s+is\s+|who\s+was\s+|who\s+are\s+|how\s+many\s+|where\s+is\s+|where\s+was\s+|which\s+is\s+|explain\s+|how\s+does\s+|how\s+do\s+|how\s+is\s+|how\s+the\s+|why\s+is\s+|why\s+do\s+|why\s+does\s+|tell\s+me\s+about\s+|give\s+me\s+info\s+on\s+)",
         "",
         norm,
         flags=re.IGNORECASE
     ).strip("?. ")
 
-    # Tier 0: Direct high-precision facts
-    # 0a. States and Union Territories in India
+    # Tier 0b: Direct high-precision facts
+    # States and Union Territories in India
     if any(phrase in norm for phrase in ["how many states", "states are there in india", "states in india", "number of states in india"]):
         return {
             "heading": "States and Union Territories of India",
@@ -237,7 +338,7 @@ def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
             "source": "Official Web Knowledge (Government of India Administrative Matrix)"
         }
 
-    # 0b. Prime Minister of India
+    # Prime Minister of India
     if "prime minister of india" in norm or "pm of india" in norm:
         return {
             "heading": "Prime Minister of India",
@@ -247,7 +348,7 @@ def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
             "source": "Wikipedia"
         }
 
-    # 0c. Speed of Light
+    # Speed of Light
     if "speed of light" in norm:
         return {
             "heading": "Speed of Light",
@@ -257,7 +358,7 @@ def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
             "source": "Physics Web Knowledge"
         }
 
-    # 0d. Continents
+    # Continents
     if "how many continents" in norm:
         return {
             "heading": "Continents of the World",
@@ -271,7 +372,7 @@ def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
     try:
         url = f"https://api.duckduckgo.com/?q={urllib.parse.quote(clean_subj)}&format=json&no_html=1&skip_disambig=1"
         req = urllib.request.Request(url, headers={"User-Agent": "AgentZ-Autonomous/2.0"})
-        with urllib.request.urlopen(req, timeout=1.8) as resp:
+        with urllib.request.urlopen(req, timeout=2.0) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             abstract = data.get("AbstractText") or data.get("Abstract")
             heading = data.get("Heading")
@@ -289,25 +390,27 @@ def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
     except Exception:
         pass
 
-    # Tier 2: Wikipedia OpenSearch & Summary API
+    # Tier 2: Wikipedia Search & Summary API
     try:
-        wiki_search = f"https://en.wikipedia.org/w/api.php?action=opensearch&search={urllib.parse.quote(clean_subj)}&limit=3&namespace=0&format=json"
-        req = urllib.request.Request(wiki_search, headers={"User-Agent": "AgentZ-Autonomous/2.0 (bhanu@agentz.local)"})
-        with urllib.request.urlopen(req, timeout=2.0) as resp:
+        wiki_query = clean_subj if len(clean_subj) > 2 else norm
+        wiki_url = f"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch={urllib.parse.quote(wiki_query)}&format=json&utf8=1&srlimit=2"
+        req = urllib.request.Request(wiki_url, headers={"User-Agent": "AgentZ-Autonomous/2.0 (bhanu@agentz.local)", "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=3.0) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            if data and len(data) >= 4 and data[1]:
-                top_title = data[1][0]
-                summary_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(top_title)}"
-                s_req = urllib.request.Request(summary_url, headers={"User-Agent": "AgentZ-Autonomous/2.0"})
-                with urllib.request.urlopen(s_req, timeout=2.0) as s_resp:
+            results = data.get("query", {}).get("search", [])
+            if results:
+                top_title = results[0]["title"]
+                s_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(top_title)}"
+                s_req = urllib.request.Request(s_url, headers={"User-Agent": "AgentZ-Autonomous/2.0"})
+                with urllib.request.urlopen(s_req, timeout=3.0) as s_resp:
                     s_data = json.loads(s_resp.read().decode("utf-8"))
                     extract = s_data.get("extract")
-                    if extract and "may refer to" not in extract.lower() and len(extract) > 40:
+                    if extract and "may refer to" not in extract.lower() and len(extract) > 30:
                         return {
                             "heading": s_data.get("title", top_title),
                             "answer": extract,
                             "spoken": clean_for_speech(extract),
-                            "url": s_data.get("content_urls", {}).get("desktop", {}).get("page", data[3][0]),
+                            "url": s_data.get("content_urls", {}).get("desktop", {}).get("page", f"https://en.wikipedia.org/wiki/{urllib.parse.quote(top_title)}"),
                             "source": "Wikipedia"
                         }
     except Exception:
@@ -319,7 +422,7 @@ def fetch_live_web_knowledge(query: str) -> Optional[Dict[str, Any]]:
         req = urllib.request.Request(search_url, headers={
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         })
-        with urllib.request.urlopen(req, timeout=2.5) as resp:
+        with urllib.request.urlopen(req, timeout=3.5) as resp:
             content = resp.read().decode("utf-8", errors="ignore")
             snippets = re.findall(r'<a[^>]*class="[^"]*result__snippet[^"]*"[^>]*>(.*?)</a>', content, re.DOTALL)
             clean_snippets = []
@@ -734,6 +837,29 @@ class AgentPlanner:
                 requires_confirmation=False,
                 message="Interacting with connected Android device via ADB..."
             )
+
+        # -------------------------------------------------------------
+        # 2A-1B. REAL-TIME WEATHER & METEOROLOGY
+        # ("how the weather in eluru today", "weather in mumbai", "temperature in tokyo")
+        # -------------------------------------------------------------
+        elif (
+            (re.search(r"\b(?:weather|climate|forecast|raining|rain)\b", lower_text) or
+             re.search(r"\b(?:temperature|how\s+hot|how\s+cold)\b", lower_text)) and
+            not any(w in lower_text for w in ["delete", "remove", "erase", "file", "folder", "cpu", "gpu", "battery", "core", "hardware", "ram", "laptop stats"])
+        ):
+            w_info = fetch_live_weather(user_text)
+            if w_info:
+                return create_plan_response(
+                    conversation_id=req.conversation_id,
+                    task_id=task_id,
+                    intent="WEATHER_QUERY",
+                    device_target="LAPTOP",
+                    entities={"location": w_info.get("heading", ""), "source": w_info.get("source", "")},
+                    steps=[],
+                    status=TaskStatus.COMPLETED,
+                    message=w_info["answer"],
+                    spoken_response=w_info["spoken"]
+                )
 
         # -------------------------------------------------------------
         # 2A-2. LAPTOP AUDIO & MEDIA CONTROL (Volume Up/Down/Mute/Set Level)
@@ -2828,13 +2954,57 @@ class AgentPlanner:
                 spoken_response=spoken
             )
 
-        # 12. Smart Conversational AI Response
+        # 12. Smart Conversational & Exploratory Task Routing
+        # If the user asked a question or informational inquiry, proactively execute web search on Google so they get the answer!
+        is_question = any(clean_text.lower().startswith(q) for q in [
+            "who", "what", "where", "when", "why", "how", "which", "is", "are", "can", "tell me", "explain", "search", "find", "show me", "look up"
+        ]) or "?" in user_text
+
+        if is_question:
+            search_q = user_text.strip("?. ")
+            task["intent"] = "BROWSE_WEB"
+            task["device_target"] = "LAPTOP"
+            task["entities"] = {"query": search_q, "engine": "google"}
+            task["status"] = TaskStatus.EXECUTING
+            steps = [
+                ExecutionStep(
+                    id="step_1",
+                    title="Analyzing Search Query",
+                    description=f"Preparing live Google search for '{search_q}' on laptop",
+                    tool="internal_parse",
+                    tool_args={"query": search_q, "engine": "google"},
+                    risk_level=RiskLevel.LOW
+                ),
+                ExecutionStep(
+                    id="step_2",
+                    title="Searching Google",
+                    description=f"Opening Google and searching for '{search_q}' in browser",
+                    tool="browse_web",
+                    tool_args={"query_or_url": search_q, "engine": "google"},
+                    risk_level=RiskLevel.LOW
+                )
+            ]
+            task["steps"] = steps
+            return create_plan_response(
+                conversation_id=req.conversation_id,
+                task_id=task_id,
+                intent="BROWSE_WEB",
+                device_target="LAPTOP",
+                entities=task["entities"],
+                steps=steps,
+                status=TaskStatus.EXECUTING,
+                requires_confirmation=False,
+                message=f"🔍 Searching Google for **\"{search_q}\"** on your laptop to bring up live results...",
+                spoken_response=f"Searching Google for {clean_for_speech(search_q)}."
+            )
+
         msg = (
-            f"I looked into **\"{user_text}\"** for you. I couldn't find an exact instant answer, but I can search the web on Google or YouTube, or help you automate any task on your Laptop or Android device.\n\n"
-            f"• Say *'search for {user_text} on google'* to browse live web results.\n"
-            f"• Or tell me what software, tool, or device action you'd like me to execute!"
+            f"I received **\"{user_text}\"**. I can execute this on your laptop or Android phone, search the web, or run any desktop app for you.\n\n"
+            f"• Say *'open <app name>'* to launch any program.\n"
+            f"• Say *'search for {user_text}'* to look it up.\n"
+            f"• Or let me know what specific action you'd like me to perform!"
         )
-        spoken = f"I'm here to help with {clean_for_speech(user_text)}. Would you like me to look that up on Google?"
+        spoken = f"I'm ready to help with {clean_for_speech(user_text)}. What would you like me to do on your device?"
         return create_plan_response(
             conversation_id=req.conversation_id,
             task_id=task_id,

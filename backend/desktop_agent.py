@@ -17,11 +17,16 @@ except ImportError:
 from typing import Dict, Any, List, Optional, Tuple
 from pathlib import Path
 from PIL import Image
-import pygetwindow as gw
-import pyautogui
+try:
+    import pygetwindow as gw
+except Exception:
+    gw = None
 
-# Disable pyautogui failsafe on (0,0) corner since cursor can be initialized anywhere
-pyautogui.FAILSAFE = False
+try:
+    import pyautogui
+    pyautogui.FAILSAFE = False
+except Exception:
+    pyautogui = None
 
 # Known desktop apps for quick launching
 KNOWN_APPS = {
@@ -507,7 +512,15 @@ class DesktopAgent:
             "whatsapp": ["whatsapp"],
             "settings": ["settings"]
         }
-        search_terms = alias_map.get(clean, [clean])
+        search_terms = list(alias_map.get(clean, [clean]))
+        try:
+            matched_app = cls.find_installed_app(clean)
+            if matched_app and matched_app.get("name"):
+                canon_name = matched_app["name"].lower().strip()
+                if canon_name not in search_terms:
+                    search_terms.append(canon_name)
+        except Exception:
+            pass
 
         bad_keywords = [
             "gdi+ window", "default ime", "msctfime ui", "tooltip", "gamepad watcher",

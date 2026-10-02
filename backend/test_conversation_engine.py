@@ -100,6 +100,19 @@ def test_speed_of_light():
     assert res.intent == "KNOWLEDGE_QUERY"
     assert "299,792,458" in res.message or "300,000" in res.message
 
+def test_live_weather_query():
+    planner = AgentPlanner()
+    req = PlanRequest(
+        user_message="how the weather in eluru today",
+        conversation_id="conv_test_10"
+    )
+    res = planner.plan_task(req)
+    assert res.intent == "WEATHER_QUERY"
+    assert "Live Weather for Eluru" in res.message
+    assert "Temperature" in res.message
+    assert "Condition" in res.message
+    assert len(res.spoken_response) > 10
+
 if __name__ == "__main__":
     test_user_typo_websites_and_questions()
     test_single_websites_query()
@@ -110,4 +123,5 @@ if __name__ == "__main__":
     test_math_calculation()
     test_states_in_india()
     test_speed_of_light()
-    print("ALL 9 CONVERSATION & WEB KNOWLEDGE TESTS PASSED SUCCESSFULLY!")
+    test_live_weather_query()
+    print("ALL 10 CONVERSATION & WEB KNOWLEDGE TESTS PASSED SUCCESSFULLY!")
